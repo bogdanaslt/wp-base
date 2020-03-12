@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": ">=7.2",
+        "symfony/dotenv": "^5.0",
+        "cakephp/core": "^4.0"
+    },
+    "extra": {
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php wp-salt.php"
+        ]   
+    }
+  }

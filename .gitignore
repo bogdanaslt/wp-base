@@ -1,0 +1,15 @@
+/vendor/
+/nbproject/
+docker-compose.yml
+!wp-content/
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+wp-content/themes/twenty*/
+node_modules/
+*.log
+*.sql
+*.sqlite
+.env
+.htaccess
